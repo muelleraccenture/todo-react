@@ -7,26 +7,31 @@ exports[`App displays the app 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
     <p>
-      Edit 
-      <code>
-        src/App.tsx
-      </code>
-       and save to reload.
+      TODO
     </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
   </header>
+  <div>
+    <ul
+      style={
+        Object {
+          "listStyleType": "none",
+        }
+      }
+    >
+      <li>
+        <p>
+          join experimental noise band
+        </p>
+        <p />
+      </li>
+      <li>
+        <p>
+          become bilingual
+        </p>
+        <p />
+      </li>
+    </ul>
+  </div>
 </div>
 `;

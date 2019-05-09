@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList displays items 1`] = `
+<div>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+      }
+    }
+  >
+    <li>
+      <p>
+        wake me up before I go go
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        never give you up 
+      </p>
+      <p />
+    </li>
+  </ul>
+</div>
+`;
