@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`presentation has not changed 1`] = `
+<div>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+      }
+    }
+  >
+    <li>
+      <p>
+        do laundry
+      </p>
+      <p />
+    </li>
+  </ul>
+</div>
+`;
