@@ -23,25 +23,33 @@ exports[`App displays the app 1`] = `
           }
         }
       >
-        <p>
-          join experimental noise band
-        </p>
-        <p />
+        <button
+          onClick={[Function]}
+        >
+          <p>
+            join experimental noise band
+          </p>
+          <p />
+        </button>
       </li>
       <li
         style={
           Object {
-            "backgroundColor": "#B4FCF7",
+            "backgroundColor": "#CCCCCC",
             "color": "pink",
             "listStyleType": "none",
             "marginTop": "10px",
           }
         }
       >
-        <p>
-          become bilingual
-        </p>
-        <p />
+        <button
+          onClick={[Function]}
+        >
+          <p>
+            become bilingual
+          </p>
+          <p />
+        </button>
       </li>
     </ul>
   </div>

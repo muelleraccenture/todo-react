@@ -6,17 +6,21 @@ exports[`presentation has not changed 1`] = `
     <li
       style={
         Object {
-          "backgroundColor": "#B4FCF7",
+          "backgroundColor": "#CCCCCC",
           "color": "pink",
           "listStyleType": "none",
           "marginTop": "10px",
         }
       }
     >
-      <p>
-        do laundry
-      </p>
-      <p />
+      <button
+        onClick={[Function]}
+      >
+        <p>
+          do laundry
+        </p>
+        <p />
+      </button>
     </li>
   </ul>
 </div>

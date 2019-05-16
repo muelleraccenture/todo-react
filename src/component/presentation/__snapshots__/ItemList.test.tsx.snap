@@ -6,17 +6,21 @@ exports[`ItemList displays items 1`] = `
     <li
       style={
         Object {
-          "backgroundColor": "#B4FCF7",
+          "backgroundColor": "#CCCCCC",
           "color": "pink",
           "listStyleType": "none",
           "marginTop": "10px",
         }
       }
     >
-      <p>
-        wake me up before I go go
-      </p>
-      <p />
+      <button
+        onClick={[Function]}
+      >
+        <p>
+          wake me up before I go go
+        </p>
+        <p />
+      </button>
     </li>
     <li
       style={
@@ -28,10 +32,14 @@ exports[`ItemList displays items 1`] = `
         }
       }
     >
-      <p>
-        never give you up 
-      </p>
-      <p />
+      <button
+        onClick={[Function]}
+      >
+        <p>
+          never give you up 
+        </p>
+        <p />
+      </button>
     </li>
   </ul>
 </div>
