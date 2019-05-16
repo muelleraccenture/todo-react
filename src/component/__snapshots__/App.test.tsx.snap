@@ -12,20 +12,32 @@ exports[`App displays the app 1`] = `
     </p>
   </header>
   <div>
-    <ul
-      style={
-        Object {
-          "listStyleType": "none",
+    <ul>
+      <li
+        style={
+          Object {
+            "backgroundColor": "#B4FCF7",
+            "color": "pink",
+            "listStyleType": "none",
+            "marginTop": "10px",
+          }
         }
-      }
-    >
-      <li>
+      >
         <p>
           join experimental noise band
         </p>
         <p />
       </li>
-      <li>
+      <li
+        style={
+          Object {
+            "backgroundColor": "#B4FCF7",
+            "color": "pink",
+            "listStyleType": "none",
+            "marginTop": "10px",
+          }
+        }
+      >
         <p>
           become bilingual
         </p>

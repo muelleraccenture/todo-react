@@ -2,20 +2,32 @@
 
 exports[`ItemList displays items 1`] = `
 <div>
-  <ul
-    style={
-      Object {
-        "listStyleType": "none",
+  <ul>
+    <li
+      style={
+        Object {
+          "backgroundColor": "#B4FCF7",
+          "color": "pink",
+          "listStyleType": "none",
+          "marginTop": "10px",
+        }
       }
-    }
-  >
-    <li>
+    >
       <p>
         wake me up before I go go
       </p>
       <p />
     </li>
-    <li>
+    <li
+      style={
+        Object {
+          "backgroundColor": "#B4FCF7",
+          "color": "pink",
+          "listStyleType": "none",
+          "marginTop": "10px",
+        }
+      }
+    >
       <p>
         never give you up 
       </p>

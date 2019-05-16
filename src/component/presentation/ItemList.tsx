@@ -12,7 +12,13 @@ export interface ItemListDispatchProps {
 export const ItemList = ({items}: ItemListProps & ItemListDispatchProps) => {
 
     const listItems = items.map(item =>
-        <li key={item.label}>
+        <li style={{
+                marginTop: '10px',
+                backgroundColor: '#B4FCF7',
+                color: 'pink',
+                listStyleType: "none",
+        }}
+            key={item.label}>
             <p>
                 {item.label}
             </p>
@@ -23,6 +29,6 @@ export const ItemList = ({items}: ItemListProps & ItemListDispatchProps) => {
     )
 
     return <div>
-                <ul style={{ listStyleType: "none"}}>{listItems}</ul>
+                <ul>{listItems}</ul>
             </div>
 }
